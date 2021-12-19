@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 15px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 150px;
+    background-color: #4c8f96;
+}
+
+.inner{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.log{
+    width: 30%;
+    height: 110px;
+    background-color: rgb(8, 8, 49);
+    position: relative;
+    top: 3.5rem;
+}
+
+.log h1{
+    padding-left: 1.2rem;
+    padding-top: 1.3rem;
+    font-size: 4rem;
+}
+
+.log a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    margin-top: 5rem;
+}
+
+li{
+    list-style: none;
+    margin-left: 30
+    px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #222841;
+    padding: 7px 12px;
+}
+
+/* Navigation ends */
+
+
+/* Master start */
+
+/* Great Start */
+
+.master{
+    padding-top: 3rem;
+}
+
+.great{
+    border: 1px solid #4c8f96;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.great h1{
+    font-weight: 900;
+    margin-top: 6rem;
+    margin-right: 9rem;
+}
+
+/* Great Ends */
+
+/* Four image Start */
+
+
+.four-img{
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hair-2{
+    width: 24%;
+}
+
+.hair-2 img{
+    border: 4px solid #4c8f96;
+    margin-bottom: 1.5rem;
+}
+
+
+.hair-2 h2{
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.hair-2 p{
+    line-height: 1.5rem;
+    font-size: .9rem;
+    color: gray;
+}
+
+/* Four image Ends */
+
+/* Hair-3 Start */
+
+.hair-3{
+    display: flex;
+    align-content: space-between;
+}
+
+.left{
+    width: 49%;
+    border: 4px solid #4c8f96;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 2%;
+}
+
+.left p{
+    line-height: 1.6rem;
+    font-size: .9rem;
+}
+
+.justify{
+    display: flex;
+    justify-content: space-between;
+}
+
+.justify img{
+    margin-bottom: 1rem;
+}
+
+.justify h3{
+    margin-right: 5rem;
+}
+
+.right{
+    width: 49%;
+    margin-left: 2rem;
+}
+
+.align{
+    border: 4px solid #276970;
+    padding: 8% 3%;
+    background-color: #4c8f96;
+}
+
+.align p{
+    color: #fff;
+    padding: 4% 0;
+}
+
+.align h3{
+    text-align: right;
+    color: #fff;
+}
+
+.right-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 4px solid #276970;
+    margin-top: 4rem;
+    background-color: #4c8f96;
+    height: 225px;
+    padding: 0 3%;
+
+}
+
+.right-bottom img{
+    position: relative;
+    bottom: .8rem;
+    
+}
+
+.right-bottom p{
+    width: 40%;
+    margin-top: 5rem;
+    color: #fff;
+}
+
+.featured{
+    width: 32%;
+    height: 40px;
+    background-color: rgb(8, 8, 49);
+    padding-left: 1rem;
+    padding-top: .5rem;
+    position: relative;
+    bottom: 3rem;
+}
+
+.featured h1{
+    color: #fff;
+}
+
+.full-width{
+    width: 100%;
+    
+    background-color: #4c8f96;
+    margin-top: 3rem;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 0;
+}
+
+.footer p{
+    color: #fff;
+    width: 66%;
+    text-align: right;
+}
+
+.social{
+    width: 10.6rem;
+    height: 3.4rem;
+    background-color: #276970;;
+}
+
+.fa{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+@media only screen and (max-width:800px){
+
+    .wrapper{
+        width: 100%;
+        
+    }
+
+    .master{
+        width: 100%;
+    }
+
+    
+
+    .log{
+        width: 6rem;
+        height: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    .log h1{
+        font-size: 1rem;
+        position: relative;
+        bottom: .8rem;
+        
+        
+    }
+
+    ul li a{
+        padding: 3.5px 5.5px;
+        font-size: .7rem;
+    }
+
+    li{
+        margin-left: .7rem;
+        font-size: 1.4rem;
+        margin-right: .7rem;
+    }
+
+    .great{
+        width: 100%;
+        
+        border: none;
+    }
+
+    .great img{
+        display: none;
+    }
+
+    .great h1{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .hair-2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .hair-3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+
+    .featured{
+        width: 30%;
+    }
+
+    .justify h3{
+        margin-left: 3rem;
+    }
+
+    
+
+    
+
+    .full-width{
+        width: 100%;
+    }
+
+    .footer p{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    
+
+    .social{
+        
+        width: 9rem;
+        margin: 0 auto;
+    }
+
+    .fa{
+        font-size: 1rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    
+    
+    
+}
